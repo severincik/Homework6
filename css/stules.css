@@ -323,7 +323,7 @@ button {
     position: relative;
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2,);
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
     color: var(--black);
     font-weight: 500;
     font-size: 16px;
@@ -740,17 +740,12 @@ button {
     height: 45px;
     padding-left: 45px;
     padding-right: 45px;
-  
-    border-radius: 6px;
-    border: 1px solid var(--primary-bg-cl);
-    outline: 2px solid transparent;
-    outline-offset: -1px;
-    transition: outline-color var(--trns-fast), box-shadow var(--trns-fast);
+    border-radius: 4px;
+    border: 1px solid var(--svg);
   }
   .modal-form-field:focus,
   .modal-form-field:focus-visible {
-    outline-color: var(--accent-bg-cl);
-    box-shadow: 0 0 0 6px rgba(255, 108, 0, 0.25);
+    outline-color: var(--web);
   }
   .modal-form-icon {
     position: absolute;
@@ -773,17 +768,13 @@ button {
   
     font-size: 13px;
   
-    border-radius: 6px;
-    border: 1px solid var(--primary-bg-cl);
-    outline: 2px solid transparent;
-    outline-offset: -1px;
-    transition: outline-color var(--trns-fast), box-shadow var(--trns-fast);
+    border-radius: 4px;
+    border: 1px solid var(--svg);
     resize: none;
   }
   .modal-form-comment:focus,
   .modal-form-comment:focus-visible {
-    outline-color: var(--accent-bg-cl);
-    box-shadow: 0 0 0 6px rgba(255, 108, 0, 0.25);
+    outline-color: var(--web);
   }
   .modal-form-comment::placeholder {
     color: #9da4bd;
@@ -801,7 +792,7 @@ button {
     width: 18px;
     height: 18px;
   
-    border: 2px solid var(--primary-bg-cl);
+    border: 2px solid var(--svg);
     border-radius: 3px;
     transition: background-color 400ms cubic-bezier(0.075, 0.82, 0.165, 1),
       border-color 400ms cubic-bezier(0.075, 0.82, 0.165, 1),
@@ -813,8 +804,8 @@ button {
     background-size: 4px;
   }
   .modal-form-checkbox:checked {
-    background-color: var(--accent-bg-cl);
-    border-color: var(--accent-bg-cl);
+    background-color: var(--svg);
+    border-color: var(--svg);
     background-size: 14px;
   }
   
@@ -826,11 +817,11 @@ button {
     transition: 400ms;
   }
   .modal-form-checkbox:checked + .custom-checkbox > .custom-checkbox-frame {
-    fill: var(--accent-bg-cl);
-    stroke: var(--accent-bg-cl);
+    fill: var(--blackk);
+    stroke: var(--blackk);
   }
   .custom-checkbox-check {
-    fill: var(--light-bg-cl);
+    fill: var(--blackk);
     opacity: 0;
     transform: rotate(0) scale(0.3);
     transition: 400ms 200ms;
@@ -845,16 +836,24 @@ button {
     user-select: none;
   }
   .modal-form-link {
-    color: var(--accent-txt-cl);
+    color: var(--link);
   }
   .modal-form-btn {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 19px 68px;
+    transition-duration: 255ms;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
   }
   .modal-form-btn:disabled {
-    filter: grayscale(1);
-    background-color: transparent;
-    color: inherit;
-    cursor: not-allowed;
+    border-radius: 4px;
+    background-color: var(--web);
+    color: var(--button);
+  }
+  .modal-form-btn:hover,
+  .modal-form-btn:focus{
+    background-color: var(--link);
+    transition-duration: 255ms;
+    transition-timing-function: cubic-bezier(0, 0, 1, 0);
   }
