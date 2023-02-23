@@ -656,6 +656,10 @@ button {
     background-color: var(--advice);
   }
 
+  .modal-btn:active{
+    background-color: var(--link);
+  }
+
   .modal-icon {
     fill: var(--blackk);
   }
@@ -810,7 +814,16 @@ button {
   }
   
   .custom-checkbox {
+    border: 1.25px solid var(--black);
+    border-radius: 2px;
   }
+
+  .custom-checkbox:active {
+    border: 1.25px solid var(--black);
+    border-radius: 2px;
+    background-color: var(--link);
+  }
+
   .custom-checkbox-frame {
     fill: transparent;
     stroke: #2e2f42;
