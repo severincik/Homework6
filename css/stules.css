@@ -656,11 +656,11 @@ button {
     background-color: var(--advice);
   }
 
-  /* .modal-btn:active{
+   .modal-btn:active{
     background-color: var(--link);
     width: 24px;
     height: 24px;
-  } */
+  } 
 
   .modal-icon {
     fill: var(--blackk);
