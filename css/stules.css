@@ -663,7 +663,7 @@ button {
 
   .modal-icon:active {
     fill: var(--button);
-    background-color: var(--link);
+    background: var(--link);
   }
 
   .backdrop {
