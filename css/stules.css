@@ -658,6 +658,8 @@ button {
 
   .modal-btn:active{
     background-color: var(--link);
+    width: 24px;
+    height: 24px;
   }
 
   .modal-icon {
