@@ -726,8 +726,7 @@ button {
     padding-right: 45px;
     border-radius: 4px;
   }
-  .modal-form-field:focus,
-  .modal-form-field:focus-visible {
+  .modal-form-field:focus {
     border: solid 1px var(--link);
   }
   .modal-form-icon {
