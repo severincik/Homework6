@@ -754,9 +754,8 @@ button {
     border: 1px solid var(--svg);
     resize: none;
   }
-  .modal-form-comment:focus,
-  .modal-form-comment:focus-visible {
-    outline-color: var(--web);
+  .modal-form-comment:focus {
+    
   }
   .modal-form-comment::placeholder {
     color: #9da4bd;
