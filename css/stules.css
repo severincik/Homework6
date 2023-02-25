@@ -757,9 +757,7 @@ button {
   .modal-form-comment:focus {
     
   }
-  .modal-form-comment::placeholder {
-    color: #9da4bd;
-  }
+  
   .modal-form-agreement {
     display: flex;
     align-items: center;
