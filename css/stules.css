@@ -656,16 +656,6 @@ button {
     background-color: var(--advice);
   }
 
-
-  .modal-icon {
-    fill: var(--blackk);
-  }
-
-  .modal-icon:active {
-    fill: var(--button);
-    background: var(--link);
-  }
-
   .backdrop {
     position: fixed;
     top: 0;
@@ -722,6 +712,10 @@ button {
     border-radius: 50%;
   }
   .modal-icon {
+    fill: var(--advice);
+  }
+
+  .modal-icon:active{
     fill: var(--link);
   }
   .modal-title {
