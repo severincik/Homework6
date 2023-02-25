@@ -656,11 +656,11 @@ button {
     background-color: var(--advice);
   }
 
-  .modal-btn:active{
+  /* .modal-btn:active{
     background-color: var(--link);
     width: 24px;
     height: 24px;
-  }
+  } */
 
   .modal-icon {
     fill: var(--blackk);
@@ -831,9 +831,9 @@ button {
   }
 
   .custom-checkbox-check {
-    fill: var(--link);
+    fill: var(--button);
+    background-color: var(--link);
     opacity: 0;
-    transform: rotate(0) scale(0.3);
     transition: 400ms 200ms;
     transform-origin: center;
   }
