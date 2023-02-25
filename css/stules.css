@@ -820,23 +820,18 @@ button {
     border-radius: 2px;
   }
 
-  .custom-checkbox:active {
-    border: 1.25px solid var(--black);
-    border-radius: 2px;
-    background-color: var(--link);
-  }
-
   .custom-checkbox-frame {
     fill: transparent;
     stroke: #2e2f42;
     transition: 400ms;
   }
   .modal-form-checkbox:checked + .custom-checkbox > .custom-checkbox-frame {
-    fill: var(--blackk);
-    stroke: var(--blackk);
+    fill: var(--link);
+    stroke: var(--link);
   }
+
   .custom-checkbox-check {
-    fill: var(--blackk);
+    fill: var(--link);
     opacity: 0;
     transform: rotate(0) scale(0.3);
     transition: 400ms 200ms;
