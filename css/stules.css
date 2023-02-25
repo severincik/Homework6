@@ -760,10 +760,10 @@ button {
     transform: translateY(-50%);
     pointer-events: none;
   
-    transition: fill var(--trns-fast);
+    transition: fill var(--link);
   }
   .modal-form-field:focus + .modal-form-icon {
-    fill: var(--accent-bg-cl);
+    fill: var(--link);
   }
   .modal-form-comment {
     display: block;
