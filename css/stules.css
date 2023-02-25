@@ -672,7 +672,6 @@ button {
   
     background-color: #fff;
     border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   
     transition: transform 150ms ease, opacity 150ms ease;
     transition-delay: 400ms;
