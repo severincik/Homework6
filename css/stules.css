@@ -676,7 +676,7 @@ button {
   
     background-color: rgba(0, 0, 0, 0.4);
   
-    transition: opacity var(--trns-fast), visibility var(--trns-fast);
+    transition: opacity var(--blackk), visibility var(--blackk);
   }
   .backdrop.is-hidden {
     opacity: 0;
@@ -720,10 +720,9 @@ button {
     padding: 0;
     border: none;
     border-radius: 50%;
-    background-color: var(--accent-bg-cl);
   }
   .modal-icon {
-    fill: var(--light-bg-cl);
+    fill: var(--link);
   }
   .modal-title {
     display: block;
