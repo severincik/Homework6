@@ -677,7 +677,7 @@ button {
     transition-delay: 400ms;
   }
   .backdrop.is-hidden .modal {
-    
+    transform: translate(-50%, -70%);
     opacity: 0;
     transition-delay: 0s;
   }
@@ -732,7 +732,7 @@ button {
     position: absolute;
     top: 50%;
     left: 10px;
-    transform: translateY(-50%);
+    
     pointer-events: none;
   
     transition: fill var(--link);
