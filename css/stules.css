@@ -802,10 +802,7 @@ button {
     transition: 400ms 200ms;
     transform-origin: center;
   }
-  .modal-form-checkbox:checked + .custom-checkbox > .custom-checkbox-check {
-    /* opacity: 1;
-    transform: rotate(360deg) scale(0.7); */
-  }
+ 
   .modal-form-desc {
     font-size: 14px;
     user-select: none;
@@ -832,3 +829,20 @@ button {
     transition-duration: 255ms;
     transition-timing-function: cubic-bezier(0, 0, 1, 0);
   }
+
+  .modal-checkbox-hid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border: 1.25px solid var(--primary-text-color);
+    border-radius: 2px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-checkbox-icon {
+    opacity: 0;
+}
