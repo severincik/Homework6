@@ -811,3 +811,64 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+
+
+.subscribe {
+  display: block;
+}
+
+.subscribe-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.form-email {
+  margin-right: 24px;
+  width: 264px;
+}
+
+.form-email-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--white-color);
+  background-color: var(--primary-text-color);
+  width: 100%;
+  padding: 7px 16px;
+  line-height: 1.5;
+
+}
+
+.subscribe-btn {
+  background-color: var(--logo-btn-color);
+  color: var(--white-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  gap: 16px;
+  min-width: 165px;
+  padding: 8px 24px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  transition-duration: 250ms;
+  transition-property: background,
+      box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background: var(--hover-focus-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+}
+
+.svg-tg {
+  fill: var(--white-color)
+}
