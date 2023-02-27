@@ -840,6 +840,13 @@ button {
 
 }
 
+.soc-text {
+  color: var(--button);
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
 .subscribe-btn {
   background-color: var(--web);
   color: var(--button);
