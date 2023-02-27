@@ -372,7 +372,7 @@
 		</footer>
 
 
-		<div class="backdrop is-hidden" data-modal>
+		<div class="backdrop is-hidden">
 			<div class="modal">
 			  <button class="modal-btn" type="button" data-modal-close>
 				<svg class="modal-icon" width="24" height="24">
@@ -384,7 +384,8 @@
 				<!-- Name field -->
 				<label class="modal-form-label" for="user_sign">Name</label>
 				<div class="modal-form-group">
-				  <input class="modal-form-field" type="text" id="user_sign" required minlength="2" />
+				  <input class="modal-form-field" type="text" id="user_sign" required pattern="[a-zA-Zа-яА-Я]+"
+				  minlength="2" />
 				  <svg class="modal-form-icon" width="25" height="25">
 					<use href="./images/icons/symbol-defs1.svg#icon-person-black-18dp-1"></use>
 				  </svg>
@@ -392,7 +393,8 @@
 				<!-- Phone field -->
 				<label class="modal-form-label" for="user_telephone">Phone</label>
 				<div class="modal-form-group">
-				  <input class="modal-form-field" type="tel" id="user_telephone" required />
+				  <input class="modal-form-field" type="tel" id="user_telephone" required
+				  pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" title="xxx-xxx-xx-xx" />
 				  <svg class="modal-form-icon" width="25" height="25">
 					<use href="./images/icons/symbol-defs1.svg#icon-phone-black-18dp-1"></use>
 				  </svg>
